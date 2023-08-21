@@ -7,6 +7,11 @@
     <title>title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .teste {
+            height: 20vh;
+        }
+    </style>
 </head>
 
 <!-- Exercício #3
@@ -17,24 +22,32 @@ em branco estão vazias, vou dar uma dica pode utilizar offset. -->
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 bg-black">oi</div>
-            <div class="col-3 bg-primary text-primary">oi</div>
-            <div class="col-3 bg-success text-success">oi</div>
-            <div class="col-3 bg-danger text-danger">oi</div>
-            <div class="col-3 bg-black text-black">oi</div>
+            <div class="teste col-12 bg-black"></div>
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-3 bg-success text-success offset-3">oi</div>
-            <div class="col-3 bg-black text-black offset-3">oi</div>
+        <div class="row teste">
+            <div class="col-3 bg-primary"></div>
+            <div class="col-3 bg-success"></div>
+            <div class="col-3 bg-danger"></div>
+            <div class="col-3 bg-black"></div>
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-3 bg-primary text-primary">oi</div>
-            <div class="col-3 bg-danger text-danger offset-3">oi</div>
-            <div class="col-12 bg-black text-black">oi</div>
+        <div class="row teste">
+            <div class="col-3 bg-success offset-3"></div>
+            <div class="col-3 bg-black offset-3"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row teste">
+            <div class="col-3 bg-primary"></div>
+            <div class="col-3 bg-danger text-danger offset-3"></div>            
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row teste">
+            <div class="col-12 bg-black text-black"></div>
         </div>
     </div>
 </body>
